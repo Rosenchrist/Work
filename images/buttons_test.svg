@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="152.18932mm"
+   height="227.27596mm"
+   viewBox="0 0 152.18932 227.27596"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="buttons_test.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient5989"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop5987" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="523.19072"
+     inkscape:cy="758.07661"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="705"
+     inkscape:window-height="435"
+     inkscape:window-x="22"
+     inkscape:window-y="22"
+     inkscape:window-maximized="0"
+     inkscape:snap-page="false">
+    <sodipodi:guide
+       position="0.058850668,226.83601"
+       orientation="1,0"
+       id="guide4491"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(0.05885067,-0.22672313)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="button1"
+     style="display:inline"
+     transform="translate(0.05885067,-0.22672313)">
+    <rect
+       style="opacity:0;fill:none;fill-opacity:1;stroke-width:0.07574022;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4493"
+       width="75.809578"
+       height="75.670921"
+       x="25.933159"
+       y="43.693027"
+       transform="rotate(-0.14412184)" />
+    <rect
+       style="opacity:0;fill:none;fill-opacity:1;stroke-width:0.07574022;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4497"
+       width="75.809578"
+       height="75.670921"
+       x="-0.0016769172"
+       y="0.66665864"
+       transform="rotate(-0.14412184)" />
+    <rect
+       style="opacity:0;fill:#ff0000;fill-opacity:1;stroke-width:0.07574022;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4505"
+       width="39.712715"
+       height="61.078083"
+       x="-0.0016769172"
+       y="6.8843789"
+       transform="rotate(-0.14412184)" />
+    <rect
+       style="opacity:0;fill:#ff0000;fill-opacity:1;stroke-width:0.07574022;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4507"
+       width="11.34649"
+       height="31.550266"
+       x="14.586666"
+       y="12.142756"
+       transform="rotate(-0.14412184)" />
+    <rect
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.11740638;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;image-rendering:auto"
+       id="rect4525"
+       width="75.69207"
+       height="75.553627"
+       x="-0.0016769172"
+       y="0.66665864"
+       transform="rotate(-0.14412184)"
+       onclick="picture()" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="button2"
+     style="display:inline"
+     transform="translate(0.05885067,-0.22672313)">
+    <rect
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#00ff00;stroke-width:0.11740638;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect4525-2"
+       width="75.69207"
+       height="75.553627"
+       x="75.807907"
+       y="0.66665864"
+       transform="rotate(-0.14412184)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="button3"
+     style="display:inline"
+     transform="translate(0.05885067,-0.22672313)">
+    <rect
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.11740638;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect4525-6"
+       width="75.69207"
+       height="75.553627"
+       x="0.11583149"
+       y="76.220268"
+       transform="rotate(-0.14412184)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="button4"
+     style="display:inline"
+     transform="translate(0.05885067,-0.22672313)">
+    <rect
+       style="opacity:1;fill:#646400;fill-opacity:1;stroke:#646400;stroke-width:0.11740638;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect4525-5"
+       width="75.69207"
+       height="75.553627"
+       x="75.807907"
+       y="76.337578"
+       transform="rotate(-0.14412184)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="button5"
+     style="display:inline"
+     transform="translate(0.05885067,-0.22672313)">
+    <rect
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#ffff00;stroke-width:0.11740638;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect4525-27"
+       width="75.69207"
+       height="75.553627"
+       x="0.1158334"
+       y="151.8912"
+       transform="rotate(-0.14412184)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="button6"
+     style="display:inline"
+     transform="translate(0.05885067,-0.22672313)">
+    <rect
+       style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:#ff00ff;stroke-width:0.11740638;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect4525-24"
+       width="75.69207"
+       height="75.553627"
+       x="75.807907"
+       y="151.8912"
+       transform="rotate(-0.14412184)" />
+  </g>
+</svg>

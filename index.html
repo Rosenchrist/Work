@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+     <head>
+             <title>Smth useful</title>
+     </head>
+     <body>
+		 <link rel="stylesheet" href="main.css">
+		 <meta charset="utf-8">
+		<header>
+			<script type="text/javascript">
+				
+				function draw(){
+					var pic = "images/buttons_test.svg"
+					var pic1 = "images/test.svg"
+					document.getElementById('pic1').src = pic.replace('90x90', '250x250');
+					document.getElementById('pic').style.display='block';
+					document.getElementById('pic1').style.display='block';
+
+			}
+				function clearScr(){
+					var pic = "images/buttons_test.svg"
+					var pic1 = "images/test.svg"
+					//document.getElementById('pic').src = pic.replace('200x200', '1000x1000');
+					//document.getElementById('pic').style.display='none';
+					document.getElementById('pic1').style.display='none';
+
+			}
+				$('#button1').click(function(){alert('hello world');});
+			</script>
+			
+		<table align = "center">
+			<tr>
+				<td><input type="button" value="Нарисовать" onclick="draw()"></td>
+				<td><input type="button" value="Стереть" onclick ="clearScr()"></td>
+			</tr>
+		</table>
+		</header>
+		<object data="images/buttons_test.svg" type="image/svg+xml" id="pic" align="left" width = "20%"></object>
+		<object data="images/test.svg" type="image/svg+xml" id="pic1" align="bottom" width = "80%" height = "100%"></object>
+     </body>
+</html>

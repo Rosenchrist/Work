@@ -1,0 +1,89 @@
+<div id="map"></div>
+		<script>
+				
+		var iarr = {};
+		var carr = [];
+		var s = '';
+		var center = [677, 250];
+		var n = 7;
+		
+		for(var i=0;i<14;i++)
+			for(var j=0;j<10;j++) {
+				var id = '_' + i + '_' + j;
+				var x = i*52;
+				var y = j*64 + i%2 * 32;
+				s += '<polygon points="'+x+','+(y+26)+' '+(x+15)+','+y+' '+(x+45)+','+y+' '+(x+60)+','+(y+26)+' '+(x+45)+','+(y+52)+' '+(x+15)+','+(y+52)+'" style="fill:transparent; stroke:black; stroke-width:1"/>';
+			}
+
+		eid('map').innerHTML = '<svg width="1334" height="500">' + s + '</svg>';
+		
+		function eid(s){return document.getElementById(s);}
+		</script>
+		
+		
+		
+		var r_out = 100;
+			var sqr = 0.866;
+			var r_in = r_out*sqr;
+			var center = [667,250];
+			var n = 2;
+		 //шестигранник
+			 context.strokeStyle = "#000";
+			 context.beginPath();
+			 context.moveTo(center[0]+r_out,center[1]);
+			 context.lineTo(center[0]+r_out/2,center[1]-r_in);
+			 context.lineTo(center[0]-r_out/2,center[1]-r_in);
+			 context.lineTo(center[0]-r_out,center[1]);
+			 context.lineTo(center[0]-r_out/2,center[1]+r_in);
+			 context.lineTo(center[0]+r_out/2,center[1]+r_in);
+			 context.lineTo(center[0]+r_out,center[1]);
+			 context.closePath();
+			 context.stroke();
+			 
+			 
+			 
+			 
+			 
+			 
+			 <!DOCTYPE html>
+<html>
+     <head>
+             <title>Smth useful</title>
+     </head>
+     <body>
+		 <link rel="stylesheet" href="main.css">
+		 <meta charset="utf-8">
+		<header>
+			<script type="text/javascript">
+				document.getElementById('pic').style.display='block';
+				function draw(){
+					var pic = "images/buttons_test.svg"
+					var pic1 = "images/test.svg"
+					document.getElementById('pic1').src = pic.replace('90x90', '250x250');
+					
+					document.getElementById('pic1').style.display='block';
+
+			}
+				function clearScr(){
+					var pic = "images/buttons_test.svg"
+					var pic1 = "images/test.svg"
+					//document.getElementById('pic').src = pic.replace('200x200', '1000x1000');
+					//document.getElementById('pic').style.display='none';
+					document.getElementById('pic1').style.display='none';
+
+			}
+				$('#button1').click(function(){alert('hello world');});
+			</script>
+			
+		<table align = "center">
+			<tr>
+				<td><input type="button" value="Нарисовать" onclick="draw()"></td>
+				<td><input type="button" value="Стереть" onclick ="clearScr()"></td>
+			</tr>
+		</table>
+		</header>
+		<object data="images/buttons_test.svg" type="image/svg+xml" id="pic" align="left" width = "20%"></object>
+		<object data="images/test.svg" type="image/svg+xml" id="pic1" align="bottom" width = "80%" height = "100%"></object>
+     </body>
+</html>
+

@@ -1,0 +1,20 @@
+body{
+	text-align: center;
+}
+
+header{
+	background-color: #cd2626;
+	padding: 50px;
+	text-align: center;
+	
+}
+object{
+	width:20%;
+	display: none;
+	
+}
+input{
+	width: 100px;
+	height: 50px;
+
+}
