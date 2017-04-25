@@ -1,0 +1,71 @@
+body, html {
+  background: #f0f0f0;
+}
+
+.container-custom {
+  width: 800px;
+  margin: 0px auto;
+}
+
+.top-panel {
+  margin-bottom: 40px;
+  padding: 20px 0px;
+}
+
+.top-panel .btn-primary {
+  margin-right: 20px;
+}
+
+.left-panel {
+  position: fixed;
+  left: 0px;
+  top: 120px;
+  bottom: 0px;
+  width: 120px;
+  background: #fff;
+  box-shadow: 0px 2px 3px rgba(0,0,0,0.1);
+  z-index: 2;
+  padding: 20px 14px;
+}
+
+.left-panel .wrapper {
+  float: left;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+.left-panel .wrapper a {
+  border: 1px solid rgba(0,0,0,0.1);
+  height: 0px;
+  padding-bottom: 100%;
+  display: block;
+  color: #666;
+  font-size: 26px;
+  text-align: center;
+  position: relative;
+  border-radius: 5px;
+}
+
+.left-panel .wrapper a i {
+  position: absolute;
+  top: 50%;
+  margin-top: -13px;
+  width: 100%;
+  left: 0px;
+}
+
+.draw-space {
+  background: #fff;
+  box-shadow: 0px 2px 3px rgba(0,0,0,0.1);
+  padding: 40px;
+}
+
+@media print {
+  .left-panel {
+    display: none;
+  }
+  .top-panel {
+    display: none;
+  }
+}

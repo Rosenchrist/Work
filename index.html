@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html>
-     <head>
-             <title>( . Y . )</title>
-             <link rel="icon" href="images/icon.svg" type="image/x-icon">
-     </head>
-     <body>
-		 <link rel="stylesheet" href="main.css">
-		 <meta charset="utf-8">
-		<header>
-			<script type="text/javascript" src="jquery-3.2.1.js"></script>
-			<script>	
-				var pic1 = "images/button_test.svg";
-				document.getElementById('pic1').style.display='block';
-				function draw(){
-					var pic = "images/test.svg"
-					document.getElementById('pic').style.display='block';
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Drawer</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    <link rel="icon" href="images/icon.svg" type="image/x-icon">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
 
-			}
-				function clearScr(){
-					var pic = "images/test.svg"
-					document.getElementById('pic').style.display='none';
-
-			}
-			$('#button_test.svg').click(function(){alert('hello world');});
-			</script>
-			
-		<table align = "center">
-			<tr>
-				<td><input type="button" value="Нарисовать" onclick="draw()"></td>
-				<td><input type="button" value="Стереть" onclick="clearScr()"></td>
-			</tr>
-		</table>
-		</header>
-				<object data="images/test.svg" type="image/svg+xml" id="pic" align="right" ></object>
-				<object data="images/buttons_test.svg" type="image/svg+xml" id="pic1" align="left" style="display:block"></object>
-				
-     </body>
+    <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div class="left-panel sys-types">
+    <div class="wrapper">
+      <a href="#" data-type="1" title="Линия"><i class="fa fa-line-chart"></i></a>
+    </div>
+    <div class="wrapper">
+      <a href="#" data-type="2" title="Столбцы"><i class="fa fa-bar-chart"></i></a>
+    </div>
+    <div class="wrapper">
+      <a href="#" data-type="3" title="Диаграмма"><i class="fa fa-pie-chart"></i></a>
+    </div>
+    <div class="wrapper">
+      <a href="#" data-type="4" title="Блок"><i class="fa fa-area-chart"></i></a>
+    </div>
+  </div>
+  <div class="container-custom">
+    <div class="top-panel">
+      <a href="#" class="sys-draw btn btn-primary"><i class=" fa fa-pencil"></i> Нарисовать</a>
+      <a href="#" class="sys-clear btn btn-default"><i class=" fa fa-eraser"></i> Стереть</a>
+      <a href="#" class="sys-print btn btn-default pull-right"><i class=" fa fa-print"></i> Распечатать</a>
+    </div>
+    <div class="draw-space">
+      <svg class="sys-svg" width="100%" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"></svg>
+    </div>
+  </div>
+  </body>
 </html>

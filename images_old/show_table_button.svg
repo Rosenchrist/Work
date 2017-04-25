@@ -15,10 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="show_table_button.svg"
-   inkscape:export-filename="C:\Users\Rosenchrist\Searches\Desktop\Progs\Diplom\images\show_table_button.svg.png"
-   inkscape:export-xdpi="150"
-   inkscape:export-ydpi="150">
+   sodipodi:docname="show_table_button.svg">
   <defs
      id="defs2">
     <inkscape:path-effect
@@ -69,9 +66,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-39.470441"
-     inkscape:cy="339.46372"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="208.35925"
+     inkscape:cy="401.32508"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -88,7 +85,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
